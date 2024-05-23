@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    scroll-padding-top: 4rem;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(./background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+.col2 {
+    margin-left: 90px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 90px;
+}
+
+p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1 {
+    background-image: url(./pic4.png);
+}
+
+.card2 {
+    background-image: url(./pic2.png);
+}
+
+.card3 {
+    background-image: url(./pic3.png);
+}
+
+.card4 {
+    background-image: url(./pic1.png);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+h5 {
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.card p {
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, auto));
+    gap: 1.5rem;
+    margin-top: 100px;
+}
+
+.about-img img {
+    border-radius: 0.5rem;
+    width: 35rem;
+}
+
+.about2 img {
+    margin-right: 120px;
+}
+
+.about2 .about-text {
+    margin-left: 100px;
+}
+
+.about1 {
+    margin-left: 100px;
+}
+
+.about1 .about-text {
+    margin-left: 60px;
+}
+
+.about-text {
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #8e7204;
+}
+
+.about-text p {
+    font-size: 1rem;
+    margin: 0.8rem 0.2rem 1.2rem;
+    color: #000;
+}
+
+.copyright {
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background: rgb(149, 138, 76);
+    margin-top: 70px;
+}
+
+@media (max-width: 1058px) {
+    .container {
+        width: 100%;
+        height: 95vh;
+    }
+
+    .col2 {
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+
+    h1 {
+        font-size: 110px;
+    }
+
+    .main-col p {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .col2 p {
+        font-size: 14px;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .card {
+        width: 290px;
+        height: 355px;
+        padding: 30px 45px;
+        margin: 10px 15px;
+    }
+
+    .about {
+        display: block;
+    }
+
+    .about-img img {
+        width: 57rem;
+        margin-top: 0px;
+    }
+
+    .about2 img {
+        margin-left: 20px;
+    }
+
+    .about2 .about-text {
+        margin-left: 20px;
+    }
+
+    .about1 {
+        margin-left: 20px;
+    }
+
+    .about1 .about-text {
+        margin-left: 5px;
+    }
+
+    .about-text {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .about-text p {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .copyright {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .container {
+        width: 95%;
+        height: 100vh;
+    }
+
+    .col2 {
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    h1 {
+        font-size: 70px;
+        margin-left: 30px;
+    }
+
+    .main-col p {
+        font-size: 30px;
+        line-height: 50px;
+        margin-left: 30px;
+    }
+
+    .col2 p {
+        font-size: 10px;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .card {
+        width: 270px;
+        height: 325px;
+    }
+
+    .about {
+        display: block;
+    }
+
+    .about-img img {
+        width: 47rem;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+    .about2 img {
+        margin-left: 20px;
+    }
+
+    .about2 .about-text {
+        margin-left: 20px;
+    }
+
+    .about1 {
+        margin-left: 10px;
+    }
+
+    .about1 .about-text {
+        margin-left: 20px;
+    }
+
+    .about-text {
+        width: 83%;
+        margin-top: 20px;
+    }
+
+    .about-text p {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .copyright {
+        width: 95%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 160%;
+        height: 150vh;
+    }
+
+    .col2 {
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    h1 {
+        font-size: 60px;
+        margin-left: 30px;
+    }
+
+    .main-col p {
+        font-size: 30px;
+        line-height: 50px;
+        margin-left: 30px;
+    }
+
+    .col2 p {
+        font-size: 12px;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .card {
+        width: 220px;
+        height: 275px;
+    }
+
+    .about {
+        display: block;
+    }
+
+    .about-img img {
+        width: 37rem;
+        margin-top: 0px;
+    }
+
+    .about2 img {
+        margin-left: 10px;
+    }
+
+    .about2 .about-text {
+        margin-left: 20px;
+    }
+
+    .about1 {
+        margin-left: 10px;
+    }
+
+    .about1 .about-text {
+        margin-left: 20px;
+    }
+
+    .about-text {
+        width: 145%;
+        margin-top: 20px;
+    }
+
+    .about-text p {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .copyright {
+        width: 150%;
+    }
+
+}
+
+@media (max-width: 360px) {
+
+    .container {
+        width: 160%;
+        height: 130vh;
+    }
+
+    .col2 {
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    h1 {
+        font-size: 50px;
+        margin-left: 30px;
+    }
+
+    .main-col p {
+        font-size: 30px;
+        line-height: 50px;
+        margin-left: 30px;
+    }
+
+    .col2 p {
+        font-size: 9px;
+    }
+
+    .col2 h5 {
+        font-size: 12px;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .card {
+        width: 200px;
+        height: 245px;
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+
+    .about {
+        display: block;
+    }
+
+    .about-img img {
+        width: 35rem;
+        margin-top: 0px;
+    }
+
+    .about2 img {
+        margin-left: 10px;
+    }
+
+    .about2 .about-text {
+        margin-left: 20px;
+    }
+
+    .about1 {
+        margin-left: 10px;
+    }
+
+    .about1 .about-text {
+        margin-left: 20px;
+    }
+
+    .about-text {
+        width: 145%;
+        margin-top: 20px;
+    }
+
+    .about-text p {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .copyright {
+        width: 150%;
+    }
+
+}

@@ -1,0 +1,194 @@
+[
+    {
+        "id": 1,
+        "name": " Fuyuzat 125",
+        "price": 4,
+        "image": "./item1.png"
+    },
+    {
+        "id": 2,
+        "name": " Fuyuzat 126",
+        "price": 4,
+        "image": "./item2.png"
+    },
+    {
+        "id": 3,
+        "name": " Fuyuzat 103",
+        "price": 4,
+        "image": "./item3.png"
+    },
+    {
+        "id": 4,
+        "name": " Fuyuzat 99",
+        "price": 4,
+        "image": "./item4.png"
+    },
+    {
+        "id": 5,
+        "name": " Fuyuzat 101",
+        "price": 4,
+        "image": "./item5.png"
+    },
+    {
+        "id": 6,
+        "name": " Fuyuzat 97",
+        "price": 4,
+        "image": "./item6.png"
+    },
+    {
+        "id": 7,
+        "name": " Fuyuzat 100",
+        "price": 4,
+        "image": "./item7.png"
+    },
+    {
+        "id": 8,
+        "name": " Fuyuzat 95",
+        "price": 4,
+        "image": "./item8.png"
+    },
+    {
+        "id": 9,
+        "name": " Fuyuzat 123",
+        "price": 4,
+        "image": "./item9.png"
+    },
+    {
+        "id": 10,
+        "name": " Fuyuzat 102",
+        "price": 4,
+        "image": "./item10.png"
+    },
+    {
+        "id": 11,
+        "name": " Fuyuzat 124",
+        "price": 4,
+        "image": "./item11.png"
+    },
+    {
+        "id": 12,
+        "name": " Fuyuzat 120",
+        "price": 4,
+        "image": "./item12.png"
+    },
+    {
+        "id": 13,
+        "name": " Fuyuzat 117",
+        "price": 4,
+        "image": "./item13.png"
+    },
+    {
+        "id": 14,
+        "name": " Fuyuzat 119",
+        "price": 4,
+        "image": "./item14.png"
+    },
+    {
+        "id": 15,
+        "name": " Fuyuzat 118",
+        "price": 4,
+        "image": "./item15.png"
+    },
+    {
+        "id": 16,
+        "name": " Fuyuzat 121",
+        "price": 4,
+        "image": "./item16.png"
+    },
+    {
+        "id": 17,
+        "name": " Fuyuzat 98",
+        "price": 4,
+        "image": "./item17.png"
+    },
+    {
+        "id": 18,
+        "name": " Fuyuzat 69",
+        "price": 4,
+        "image": "./item18.png"
+    },
+    {
+        "id": 19,
+        "name": " Fuyuzat 105",
+        "price": 4,
+        "image": "./item19.png"
+    },
+    {
+        "id": 20,
+        "name": " Fuyuzat 107",
+        "price": 4,
+        "image": "./item20.png"
+    },
+    {
+        "id": 21,
+        "name": " Ishiq 86",
+        "price": 4,
+        "image": "./item21.png"
+    },
+    {
+        "id": 22,
+        "name": " Ishiq 22",
+        "price": 4,
+        "image": "./item22.png"
+    },
+    {
+        "id": 23,
+        "name": " Ishiq 94",
+        "price": 4,
+        "image": "./item23.png"
+    },
+    {
+        "id": 24,
+        "name": " Ishiq 112",
+        "price": 4,
+        "image": "./item24.png"
+    },
+    {
+        "id": 25,
+        "name": " Ishiq 93",
+        "price": 4,
+        "image": "./item25.png"
+    },
+    {
+        "id": 26,
+        "name": " Ishiq 90",
+        "price": 4,
+        "image": "./item26.png"
+    },
+    {
+        "id": 27,
+        "name": " Ishiq 89",
+        "price": 4,
+        "image": "./item27.png"
+    },
+    {
+        "id": 28,
+        "name": " Ishiq 91",
+        "price": 4,
+        "image": "./item28.png"
+    },
+    {
+        "id": 29,
+        "name": " Ishiq 95",
+        "price": 4,
+        "image": "./item29.png"
+    },
+    {
+        "id": 30,
+        "name": " Ishiq 88",
+        "price": 4,
+        "image": "./item30.png"
+    },
+    {
+        "id": 31,
+        "name": " Ishiq 101",
+        "price": 4,
+        "image": "./item31.png"
+    },
+    {
+        "id": 32,
+        "name": " Ishiq 100",
+        "price": 4,
+        "image": "./item32.png"
+    }
+]
